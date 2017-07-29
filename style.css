@@ -1,0 +1,14 @@
+#image{
+  text-align : center;
+  margin : 50px auto;
+}
+
+body{
+  background-color : red;
+}
+#jumbo{
+  background-color : white;
+}
+#footer{
+  color : white;
+}

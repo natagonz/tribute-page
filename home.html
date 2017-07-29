@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tribute page | Jquery Bootstrap</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+</head>
+<body>
+<div class ="container">
+  <div class="jumbotron" id="jumbo">
+  <h1 class="text-center"> Ir Soekarno</h1>
+  <h4 class="text-center"> The First President Of Indonesia </h4>
+  
+<div id="image">
+ <img class="img-responsive img-thumbnail" src="http://www.portalsejarah.com/wp-content/uploads/2014/11/Sejarah-Singkat-Kisah-Hidup-Ir.-Soekarno-Bapak-Proklamator-RI.jpg">
+  <div class="caption"> The First and The Best President In Indonesia </div>
+</div>
+	<button id=btn1>Hide</button> <button id="btn2">Show</button>
+	<div class="hides">
+  <h3 id="title" class="text-primary text-center"> Short stories about Ir Soekarno </h3>
+  <p>Sukarno (6 June 1901 – 21 June 1970)[2] was the first President of Indonesia, serving in office from 1945 to 1967.
+
+Sukarno was the leader of his country's struggle for Independence from the Netherlands. He was a prominent leader of Indonesia's nationalist movement during the Dutch colonial period, and spent over a decade under Dutch detention until released by the invading Japanese forces. Sukarno and his fellow nationalists collaborated to garner support for the Japanese war effort from the population, in exchange for Japanese aid in spreading nationalist ideas. Upon Japanese surrender, Sukarno and Mohammad Hatta declared Indonesian independence on 17 August 1945, and Sukarno was appointed as first president. He led Indonesians in resisting Dutch re-colonization efforts via diplomatic and military means until the Dutch acknowledgment of Indonesian independence in 1949. Author Pramoedya Ananta Toer once wrote "Sukarno was the only Asian leader of the modern era able to unify people of such differing ethnic, cultural and religious backgrounds without shedding a drop of blood."[3]
+
+After a chaotic period of parliamentary democracy, Sukarno established an autocratic system called "Guided Democracy" in 1957 that successfully ended the instability and rebellions which were threatening the survival of the diverse and fractious country. The early 1960s saw Sukarno veering Indonesia to the left by providing support and protection to the Indonesian Communist Party (PKI) to the irritation of the military and Islamists. He also embarked on a series of aggressive foreign policies under the rubric of anti-imperialism, with aid from the Soviet Union and China. The 30 September Movement (1965) led to the destruction of the PKI and his replacement in 1967 by one of his generals, Suharto (see Transition to the New Order), and he remained under house arrest until his death.</p>
+</div>
+  <blockquote>
+            <p>""Give me a 1000 men, I'll move the mountain. Give me 10 young men, I'll shake the world."</p>
+            <footer><cite>Ir Soekarno</cite></footer>
+          </blockquote>
+    
+    <p> source : <a href="https://en.wikipedia.org/wiki/Sukarno" target="_blank"> Wikipedia </a></p>
+  
+ 
+  </div>
+  <footer class="text-center">
+    <hr>
+    <p id="footer">Made by Nata For My Country <a href="https://www.freecodecamp.com/fcc2d03d3f4" target="_blank">Natagonz</a></p>
+  </footer>  
+</div>
+
+
+<script>
+	$(document).ready(function(){
+		$('#btn1',).on('click', function(){
+			$('.hides').hide();
+		});
+		$('#btn2',).on('click', function(){
+			$('.hides').show();
+		});
+	});
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
